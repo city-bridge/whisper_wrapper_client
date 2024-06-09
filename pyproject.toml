@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+
+[project]
+name = "whisper_wrapper_client"
+description = "clinet for whisper wrapper server"
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["version"]
+
+[tool.setuptools.packages.find]
+exclude = ["build", "tests"]
+
